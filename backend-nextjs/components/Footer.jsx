@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
@@ -7,6 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-overlay">
         <div className="footer-container">
+
           {/* ---------- LEGAL ---------- */}
           <div className="footer-column">
             <h3>Legal</h3>
@@ -30,7 +33,10 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Contact Us</h3>
             <p><FaMapMarkerAlt /> <strong>DELHI 11005</strong></p>
-            <p>XXXXXXXXXXXXXXXXXXX,<br />XXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+            <p>
+              XXXXXXXXXXXXXXXXXXX,<br />
+              XXXXXXXXXXXXXXXXXXXXXXXXXXXX
+            </p>
             <p><FaPhoneAlt /> <strong>12x7 Help Desk</strong></p>
             <p>+91 7303999829</p>
             <p><FaEnvelope /> <strong>Mail Us</strong></p>
@@ -49,7 +55,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 <span>Esmart Bazaar</span>. All Rights Reserved.</p>
+          <p>
+            © 2025 <span>Esmart Bazaar</span>. All Rights Reserved.
+          </p>
         </div>
       </div>
     </footer>
